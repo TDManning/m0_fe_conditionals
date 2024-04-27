@@ -1,4 +1,6 @@
-// In the exercises below, write your own code where indicated to achieve the desired result.
+Checking for push edits
+
+//In the exercises below, write your own code where indicated to achieve the desired result.
 // One example is already completed. Your task is to complete any remaining prompt.
 // Make sure to run the file in your command line using `node <filename>.js`
 
