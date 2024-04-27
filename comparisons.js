@@ -1,4 +1,4 @@
-Checking for push edits
+Lets try this again
 
 //In the exercises below, write your own code where indicated to achieve the desired result.
 // One example is already completed. Your task is to complete any remaining prompt.
