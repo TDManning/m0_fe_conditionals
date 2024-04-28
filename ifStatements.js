@@ -24,12 +24,43 @@ if (numQuarters >2) {
 
 // You should be able to change the variables to achieve the following outputs:
 // If cupsOfFlour = 1 and hasSauce = true, print "I cannot make pizza"
-// If cupsOfFlour = 5 and hasSauce = false, print "I cannot make pizza"
-// If cupsOfFlour = 2 and hasSauce = true, print "I can make pizza"
-// If cupsOfFlour = 3 and hasSauce = true, print "I can make pizza"
-
-// Experiment with manipulating the value held within both variables to make sure all above conditions output what you expect.
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+
+if (cupsOfFlour === 1 && hasSauce) {
+    console.log("I can make pizza")
+}
+
+// If cupsOfFlour = 5 and hasSauce = false, print "I cannot make pizza"
+
+cupsOfFlour = 5;
+hasSauce = false;
+
+if (cupsOfFlour === 5 && hasSauce) {
+    console.log("I can make pizza")
+    } else {
+        console.log("I cannont make pizza")}
+
+// If cupsOfFlour = 2 and hasSauce = true, print "I can make pizza"
+
+cupsOfFlour = 2;
+hasSauce = true;
+
+if (cupsOfFlour === 2 && hasSauce) {
+    console.log("I can make pizza")
+}
+
+// If cupsOfFlour = 3 and hasSauce = true, print "I can make pizza"
+
+cupsOfFlour = 3;
+hasSauce = true;
+
+if (cupsOfFlour === 3 && hasSauce) {
+    console.log("I can make pizza")
+}
+
+// Experiment with manipulating the value held within both variables to make sure all above conditions output what you expect.
+
+
 
