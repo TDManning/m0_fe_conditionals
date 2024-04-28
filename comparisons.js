@@ -39,13 +39,13 @@ var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 
-This logs true becuase 6 friends are more than 2 siblings.
+// This logs true becuase 6 friends are more than 2 siblings.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 
-This logs to true because 9 attendees  is not equal to 8 meals.
+// This logs to true because 9 attendees  is not equal to 8 meals.
 
 
 // #-------------------
@@ -58,12 +58,11 @@ var finishedHomework = false;
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
 console.log(isHungry && finishedHomework);
-
-This logs: false 
+// This logs: false 
 
 // Determine if the user is hungry or has completed their homework
 console.log(isHungry || finishedHomework);
-This logs: true
+// This logs: true
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -74,11 +73,16 @@ var age = 1;
 // Determine if the dog loves to play and loves treats
 
 console.log(lovesToPlay && lovesTreats);
-This logs: true
+// This logs: true
 
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
+console.log(lovesDogPark || lovesDogPark);
+// This logs: false
 
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age <2);
+// This logs: true
+
 // HINT: Use the age variable and assume that a puppy is less than 2 years old
