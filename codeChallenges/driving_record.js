@@ -9,10 +9,41 @@
 // - Show that the program works as intended by running the code (you should run the code more than once to prove it works for all logic paths)
 // - Share a challenge or question you had when you solved it the first time
 
-```javascript
+
 var goodDrivingRecord = true;
-var age = 24;
-```
+var age = 26;
+
+if (age >= 25 && goodDrivingRecord) {
+    console.log("Congratulations! You get a discount on your rental car!")
+        } else if (age >= 25 || goodDrivingRecord) {
+            console.log("Your rental car will be the standard price")
+        } else {
+            console.log("Sorry, but you'll need someone over 25 to sign for the rental")
+            }
+
+goodDrivingRecord = true;
+age = 24;
+
+if (age >= 25 && goodDrivingRecord) {
+    console.log("Congratulations! You get a discount on your rental car!")
+        } else if (age >= 25 || goodDrivingRecord) {
+            console.log("Your rental car will be the standard price")
+        } else {
+            console.log("Sorry, but you'll need someone over 25 to sign for the rental")
+            }
+
+goodDrivingRecord = false;
+age = 24;
+
+if (age >= 25 && goodDrivingRecord) {
+    console.log("Congratulations! You get a discount on your rental car!")
+        } else if (age >= 25 || goodDrivingRecord) {
+            console.log("Your rental car will be the standard price")
+        } else {
+            console.log("Sorry, but you'll need someone over 25 to sign for the rental")
+            }
+
+
 
 // Write a program that evaluates the status of the variables above, and uses logic to print one of three possible messages:
 // - If the driving record is good and user is over 25 years old, they should get a discount on the car rental
