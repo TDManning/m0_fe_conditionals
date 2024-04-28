@@ -1,5 +1,3 @@
-Lets try this again
-
 //In the exercises below, write your own code where indicated to achieve the desired result.
 // One example is already completed. Your task is to complete any remaining prompt.
 // Make sure to run the file in your command line using `node <filename>.js`
@@ -19,12 +17,15 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // this should log: false
 
 
@@ -37,12 +38,14 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+
+This logs true becuase 6 friends are more than 2 siblings.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+
+This logs to true because 9 attendees  is not equal to 8 meals.
 
 
 // #-------------------
@@ -55,8 +58,12 @@ var finishedHomework = false;
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
 console.log(isHungry && finishedHomework);
+
+This logs: false 
+
 // Determine if the user is hungry or has completed their homework
 console.log(isHungry || finishedHomework);
+This logs: true
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -65,6 +72,9 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+
+console.log(lovesToPlay && lovesTreats);
+This logs: true
 
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
